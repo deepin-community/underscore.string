@@ -1,0 +1,5 @@
+version=4
+opts="dversionmangle=auto,\
+repacksuffix=+dfsg,\
+filenamemangle=s/.+\/v?(.*)\.tar\.gz/underscore.string-$1.tar.gz/" \
+ https://github.com/epeli/underscore.string/tags .*/v?(\d[\d\.]+)\.tar\.gz

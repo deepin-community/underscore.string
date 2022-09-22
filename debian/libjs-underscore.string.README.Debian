@@ -1,0 +1,26 @@
+libjs-underscore.string for Debian
+----------------------------------
+
+In order to make use of underscore.string in your html, include the following
+lines in your html header:
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/underscore.string/underscore.string.min.js"></script>
+
+
+If you're generating files which are going to be served via the
+filesystem (such that no HTTP server is used) instead you should
+access underscore.string via the filesystem path:
+
+    <script language="javascript" type="text/javascript"
+    src="/usr/share/javascript/underscore.string/underscore.string.min.js"></script>
+
+
+Explain why dfsg-packaging
+--------------------------
+
+underscore.string originally comes with minified files. However, it violates
+the Debian Policy.
+
+
+ -- Marcelo Jorge Vieira (metal) <metal@alucinados.com>  Wed, 07 Aug 2013 22:58:23 -0300

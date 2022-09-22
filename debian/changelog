@@ -1,0 +1,42 @@
+underscore.string (3.3.5+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install
+  * Install the real underscore.string module
+    (no more depends on libjs-underscore.string)
+  * Replace deprecated node-uglify by uglifyjs
+  * Fix files-excluded field and debian/watch
+  * New upstream version 3.3.5+dfsg
+  * Apply multi-arch hits (foreign)
+  * Update copyright
+  * Enable upstream test using mocha
+  * Install docs
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 15 Dec 2020 16:40:17 +0100
+
+underscore.string (3.3.4+dfsg-2) unstable; urgency=high
+
+  * FTBFS: missing build dependency on uglifyjs (Closes: #831412)
+
+ -- Marcelo Jorge Vieira <metal@debian.org>  Sat, 30 Jul 2016 09:37:27 -0300
+
+underscore.string (3.3.4+dfsg-1) unstable; urgency=medium
+
+  [ Marcelo Jorge Vieira (metal) ]
+  * Initial packaging work
+
+  [ Pirate Praveen ]
+  * Initial release (Closes: #718937)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 11 Jul 2016 13:39:50 +0530
