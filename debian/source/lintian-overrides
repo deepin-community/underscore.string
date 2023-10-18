@@ -1,2 +1,0 @@
-# False positive
-underscore.string source: source-is-missing dist/underscore.string.js line length is 841 characters (>512)

@@ -3,4 +3,6 @@
 	dh $@
 
 override_dh_auto_build:
-	uglifyjs -o dist/underscore.string.min.js dist/underscore.string.js
+	mkdir -p dist
+	browserify index.js -o dist/underscore.string.js -s s
+	terser -o dist/underscore.string.min.js dist/underscore.string.js
