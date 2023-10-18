@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Underscore.string
 Source: https://github.com/epeli/underscore.string
-Files-Excluded: dist/*.min.*
+Files-Excluded: dist
 
 Files: *
 Copyright: 2011 Esa-Matti Suuronen <esa-matti@suuronen.org>
@@ -10,7 +10,7 @@ License: Expat
 Files: debian/*
 Copyright: 2013 Marcelo Jorge Vieira <metal@debian.org>
  2016 Pirate Praveen <praveen@debian.org>
- 2020 Xavier Guimard <yadd@debian.org>
+ 2020 Yadd <yadd@debian.org>
 License: Expat
 
 License: Expat
